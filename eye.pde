@@ -69,7 +69,7 @@ void draw() {
      rotateY((float)Math.sin(spinner*0.01)*0.5);
        rotateX((float)Math.sin(spinner*0.01));
        rotateZ((float)Math.cos(spinner*0.01)*0.2);
-    }else{
+    }else if(keyPressed){
      rotateX(mouseY*0.01);
      rotateZ(mouseX*0.01);
      println(mouseY*0.01);
